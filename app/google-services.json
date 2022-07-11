@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "57210087693",
+    "project_id": "chat-sggs",
+    "storage_bucket": "chat-sggs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57210087693:android:38245036fa1f00b9bca844",
+        "android_client_info": {
+          "package_name": "com.example.chat_sggs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57210087693-bv2man4ii1h4m12vpv7gn6inrni7bitp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfJuuTaenQekDi9pSX0pQq5cY5_2TI6WE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57210087693-bv2man4ii1h4m12vpv7gn6inrni7bitp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
