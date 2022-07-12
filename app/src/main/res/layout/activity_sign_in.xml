@@ -22,16 +22,17 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            app:srcCompat="@drawable/ic_whatsapp_greensquare_logo_wine" />
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:layout_marginBottom="18dp"
+            app:srcCompat="@drawable/ic_whatsapp_svgrepo_com" />
 
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="5dp"
             android:background="@color/white"
             android:ems="10"
             android:hint="Email"
@@ -107,6 +108,7 @@
                 android:padding="15dp"
                 android:text="FACEBOOK"
                 android:textColor="#F6F4F4"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 app:backgroundTint="@color/fb_color"
                 app:cornerRadius="6dp" />
