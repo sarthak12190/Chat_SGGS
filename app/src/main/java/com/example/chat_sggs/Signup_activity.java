@@ -30,7 +30,7 @@ public class Signup_activity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
 
-        binding.clickSignUp.setOnClickListener(new View.OnClickListener() {
+        binding.btnClickSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -40,7 +40,7 @@ public class Signup_activity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
-                            Toast.makeText(Signup_activity.this, "User created Succesfully", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Signup_activity.this, "User created Successfully", Toast.LENGTH_SHORT).show();
                         }
                         else{
                             Toast.makeText(Signup_activity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
