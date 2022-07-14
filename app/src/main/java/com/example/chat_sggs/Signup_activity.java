@@ -3,6 +3,8 @@ package com.example.chat_sggs;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -19,6 +21,7 @@ public class Signup_activity extends AppCompatActivity {
     ActivitySignupBinding binding;
     private FirebaseAuth auth;
     FirebaseDatabase database;
+    ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,15 +33,21 @@ public class Signup_activity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
 
+        progressDialog = new ProgressDialog(Signup_activity.this);
+        progressDialog.setTitle("Creating Account");
+        progressDialog.setMessage("We are creating your account");
+
         binding.btnClickSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                progressDialog.show();
 
                 auth.createUserWithEmailAndPassword
                         (binding.etEmail.getText().toString(), binding.etPassword.getText().toString())
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+                        progressDialog.dismiss();
                         if (task.isSuccessful()){
                             Toast.makeText(Signup_activity.this, "User created Successfully", Toast.LENGTH_SHORT).show();
                         }
@@ -52,5 +61,14 @@ public class Signup_activity extends AppCompatActivity {
             }
         });
 
-    }
+        binding.alreadyHaveAnAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Signup_activity.this, Sign_In_activity.class);
+                startActivity(intent);
+
+            }
+
+    });
+}
 }

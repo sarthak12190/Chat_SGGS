@@ -62,7 +62,7 @@
             android:text="Click for SIGN UP" />
 
         <Button
-            android:id="@+id/btn_click_signup"
+            android:id="@+id/btn_click_signin"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

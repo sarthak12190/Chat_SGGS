@@ -64,7 +64,7 @@
             android:padding="9dp" />
 
         <TextView
-            android:id="@+id/click_sign_up"
+            android:id="@+id/already_have_an_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
