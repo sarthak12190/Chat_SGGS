@@ -1,5 +1,6 @@
 package com.example.chat_sggs.Fragments;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -48,12 +49,14 @@ public class ChatsFragment extends Fragment {
 
 
         database.getReference().child("Users").addValueEventListener(new ValueEventListener() {
+            @SuppressLint("NotifyDataSetChanged")
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
 
                 list.clear();
                 for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                     Users users = dataSnapshot.getValue(Users.class);
+                    assert users != null;
                     users.getUserId(dataSnapshot.getKey());
                     list.add(users);
                 }
