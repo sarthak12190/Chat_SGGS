@@ -12,7 +12,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.chat_sggs.databinding.FragmentSecondBinding;
 
 public class SecondFragment extends Fragment {
-//ok
+
     private FragmentSecondBinding binding;
 
     @Override
