@@ -3,6 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/bg_edit_text.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/bg_reciver.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/bg_sender.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/btn_bg.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_baseline_video_call_24.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_bell_1.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_facebook_f_logo_blue_logo_wine.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_google_chrome_logo_wine.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_plusimg.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_w.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_whatsapp_greensquare_logo_wine.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_whatsapp_logo.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/ic_whatsapp_svgrepo_com.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/linear_bg.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/drawable/round_shape.xml" value="0.147" />
+        <entry key="..\:/Chat_SGGS/app/src/main/res/layout/activity_settings.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/91744/AndroidStudioProjects/Chat_SGGS/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/91744/AndroidStudioProjects/Chat_SGGS/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
         <entry key="..\:/Users/91744/AndroidStudioProjects/Chat_SGGS/app/src/main/res/layout/fragment_chats.xml" value="0.17552083333333332" />
